@@ -93,6 +93,7 @@ class DenseNet(nn.Module):
 
         self.apply(initialize_resnet)
 
+        
     def get_message(self):
         return self.message
 
